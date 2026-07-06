@@ -1,6 +1,6 @@
 Manual for this project
 Project name : Linux system health checker
-date : 03/07/2026
+date : 06/07/2026
 
 
 ## Description :
@@ -32,4 +32,4 @@ then run the bash xript by using  (./sysyemhealthcheck .sh) command or bash (sys
 
 
 ## Author 
-Bawdri Saivammsi
+Bara Bawdri Saivammsi
