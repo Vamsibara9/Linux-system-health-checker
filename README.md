@@ -1,35 +1,63 @@
-Manual for this project
-Project name : Linux system health checker
-date : 06/07/2026
+# Linux System Health Checker
 
+A Bash script that generates a Linux system health report by collecting important system information.
 
-## Description :
-A bash script that generates a linux system health report by collecting importrant system information.
+## Features
 
-## Features:
-Date & time
-username
-Hostname
-IP address
-Network Interfaces
-Routing Tables
-Disk usage
-memory usage
-Home directory size
-System uptime
-Running Processes
-CPU In formation
-Kernal Version
+- Displays current date and time
+- Displays username and hostname
+- Shows IP address
+- Lists network interfaces
+- Displays routing table
+- Shows disk usage
+- Shows memory usage
+- Displays home directory size
+- Shows system uptime
+- Lists running processes
+- Displays CPU information
+- Shows Linux kernel version
 
+## Technologies Used
 
-## Technologies used:
-Linux
-bash shell scripting
+- Bash
+- Linux (Ubuntu)
+- Git
+- GitHub
 
-## How To Run:
-First make the .sh file executable by using (chmod +x) 
-then run the bash xript by using  (./sysyemhealthcheck .sh) command or bash (systemhealthcheck.sh)
+## How to Run
 
+```bash
+chmod +x syshealth.sh
+./syshealth.sh
+```
 
-## Author 
-Bara Bawdri Saivammsi
+## Sample Output
+
+A sample report is available in:
+
+```text
+sample_health_report.txt
+```
+
+## Screenshots
+
+The `Screenshots` folder contains screenshots of the script and its output.
+
+## Project Structure
+
+```
+.
+├── syshealth.sh
+├── README.md
+├── LICENSE
+├── sample_health_report.txt
+└── Screenshots/
+```
+
+## Author
+
+**Bara Bawdri Saivamsi**
+
+## License
+
+This project is licensed under the MIT License.
